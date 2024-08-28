@@ -1,0 +1,44 @@
+/* about.css */
+
+.hero {
+    position: relative;
+    background-color: #f4f4f4;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero-text {
+    z-index: 2;
+    color: #333;
+  }
+  
+  .hero-image img {
+    width: 110%;
+    height: 110%;
+    border-radius: 50px;
+    z-index: 2;
+  }
+  
+  .buttons {
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+  
+  
+  
+  
+
+  

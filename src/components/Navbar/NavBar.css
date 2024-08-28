@@ -1,0 +1,66 @@
+/* NavBar.css */
+
+img {
+    height: 40px;
+}
+
+.navbar-brand {
+    height: 40px;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-collapse.collapse {
+    justify-content: center;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Push icons and button to the right edge */
+}
+
+.icon-btn {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.icon-btn svg {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.icon-btn:hover svg {
+    color: #ffbe0b; /* Change this to the color you prefer */
+}
+
+.btn.btn-dark {
+    background-color: #ffbe0b;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.btn.btn-dark:hover {
+    background-color: #23272b;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

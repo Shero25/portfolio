@@ -72,24 +72,6 @@
     border-radius: 10px;
 }
 
-.initial {
-    background-color: #a2d5d1;
-}
-
 .final {
     background-color: #43b8b8;
-}
-
-.review {
-    width: 100%;
-    background-color: #ffbb33;
-    padding: 15px;
-    margin-top: 20px;
-    color: white;
-}
-
-.review-title {
-    margin-bottom: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
 }

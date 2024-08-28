@@ -1,9 +1,9 @@
-import About from "./components/about";
-import Contact from "./components/contact";
-import NavBar from "./components/NavBar";
-import Projects from "./components/projects";
-import Skills from "./components/skills";
-import Details from "./components/details";
+import About from "./components/About/about";
+import Contact from "./components/Contact/contact";
+import NavBar from "./components/Navbar/NavBar";
+import Projects from "./components/Project/projects";
+import Skills from "./components/Skills/skills";
+import Details from "./components/Details/details";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

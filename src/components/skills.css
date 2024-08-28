@@ -1,0 +1,95 @@
+.skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.soft-skills, .technical-skills {
+    width: 45%;
+    
+}
+
+.section-title {
+    background-color: #ffbb33;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.most-improved {
+    background-color: #ffe4b2;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill-rating {
+    width: 50px;
+    height: 50px;
+    background-color: #ffbb33;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    margin-right: 10px;
+}
+
+.skill-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.technical-skills .skill-bar {
+    margin-bottom: 20px;
+}
+
+.technical-skills .bar {
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    margin-top: 5px;
+}
+
+.technical-skills .bar div {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.initial {
+    background-color: #a2d5d1;
+}
+
+.final {
+    background-color: #43b8b8;
+}
+
+.review {
+    width: 100%;
+    background-color: #ffbb33;
+    padding: 15px;
+    margin-top: 20px;
+    color: white;
+}
+
+.review-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

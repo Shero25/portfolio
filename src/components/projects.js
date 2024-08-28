@@ -9,9 +9,9 @@ function Projects() {
           <div className="card text-center" style={{ width: '300px', borderRadius: '10px' }}>
             <img src="nemss.png" className="card-img-top" alt="Project 1"  style={{width:'300px,',height:'225px'}} />
             <div className="card-body">
-              <h5 className="card-title" >Project 1</h5> {/* Styled the card title */}
-              <p className="card-text" style={{ color: '#6c757d' }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p> {/* Styled the text */}
-              <button className="btn btn-primary" style={{ backgroundColor: '#ffbb33', border: 'none', borderRadius: '5px' }}>Go somewhere</button>
+              <h5 className="card-title" >Project 1</h5>
+              <p className="card-text" style={{ color: '#6c757d' }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button className="btn btn-primary" style={{ backgroundColor: '#ffbb33', border: 'none', borderRadius: '5px' }}>View</button>
             </div>
           </div>
         </div>
@@ -21,7 +21,7 @@ function Projects() {
             <div className="card-body">
               <h5 className="card-title">Project 2</h5>
               <p className="card-text" style={{ color: '#6c757d' }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button className="btn btn-primary" style={{ backgroundColor: '#ffbb33', border: 'none', borderRadius: '5px' }}>Go somewhere</button>
+              <button className="btn btn-primary" style={{ backgroundColor: '#ffbb33', border: 'none', borderRadius: '5px' }}>View</button>
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@ function Projects() {
             <div className="card-body">
               <h5 className="card-title">Project 3</h5>
               <p className="card-text" style={{ color: '#6c757d' }}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button className="btn btn-primary" style={{ backgroundColor: '#ffbb33', border: 'none', borderRadius: '5px' }}>Go somewhere</button>
+              <button className="btn btn-primary" style={{ backgroundColor: '#ffbb33', border: 'none', borderRadius: '5px' }}>View</button>
             </div>
           </div>
         </div>

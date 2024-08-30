@@ -1,44 +1,112 @@
-/* about.css */
+.profile-section {
+  padding: 70px 50px;
+  background-color: #FFFFFF; 
+ 
+}
 
-.hero {
-    position: relative;
-    background-color: #f4f4f4;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .hero-text {
-    z-index: 2;
-    color: #333;
-  }
-  
-  .hero-image img {
-    width: 110%;
-    height: 110%;
-    border-radius: 50px;
-    z-index: 2;
-  }
-  
-  .buttons {
-    padding: 5px;
-    margin: 5px;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-  }
-  
-  
-  
-  
+.profile-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+   
+}
 
-  
+.profile-image-wrapper {
+  position: relative;
+  flex: 1;
+  max-width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 85%;
+  height: 100%;
+  background-color: #76B041; 
+  border-radius: 20px 0 0 0; 
+  z-index: 1;
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border-radius: 15px;
+  z-index: 2;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-content-wrapper {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-content {
+  padding-left: 2rem;
+  padding: 50px;
+ 
+}
+
+.profile-content h2 {
+  font-size: 2.5rem;
+  color: #333333; 
+  margin-bottom: 1rem;
+}
+
+.profile-content h2 .highlight {
+  color: #76B041;
+
+}
+
+.profile-content h3 {
+  font-size: 2rem;
+  color: #333333; 
+  margin-bottom: 1rem;
+}
+
+.profile-content p {
+  font-size: 1rem;
+  color: #777777; 
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.btn-more {
+  background-color: white; 
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px; 
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid #76B041;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+
+.btn-more:hover {
+  background-color: #5C8E35; 
+  color: white;
+}
+
+.btn-icon {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  background-color: #76B041;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

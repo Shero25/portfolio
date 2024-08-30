@@ -1,25 +1,35 @@
-import "./about.css"
+import "./about.css";
 import React from 'react';
 
 function About() {
     return (
-     <section className="hero" >
-        <div className="container ">
-          <div className="hero-text">
-            <h2>Hi there! <span style={{fontSize:'30px'}}>&#128075;</span></h2>
-            <h1>I'm  Sheroline Malatjie -</h1>
-            <span style={{ color: '#ffbb33' ,fontSize:'40px'}}> A Full Stack-Developer</span>
-             <div className="buttons mt-4">
-              <button className="btn btn-warning me-2" style={{color:'white'}}>Download CV</button>
-              <button className="btn btn-dark" style={{backgroundColor:'black'}}>Hire Me</button>
+        <section className="profile-section">
+            <div className="profile-container">
+                <div className="profile-image-wrapper">
+                    <div className="image-background"></div>
+                    <img src="pr.jpg" alt="Sheroline Malatjie" className="profile-image" />
+                </div>
+                <div className="profile-content-wrapper">
+                    <div className="profile-content">
+                        <h2><span className="highlight">I'M Sheroline Malatjie.</span></h2>
+                        <h2><span className="">Full Stack Developer</span></h2>
+                        <p>
+                        I'm Sheroline Malatjie, a Full Stack Developer with a passion for building user-friendly and scalable web applications.
+                        With expertise in Angular, Spring Boot, and PostgreSQL, I create efficient solutions that solve real-world problems. 
+                        </p>
+                        <button className="btn-more">
+                            MORE ABOUT ME
+                            <span className="btn-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div className="hero-image">
-            <img src="image.png" alt="Sheroline Malatjie" style={{ width: '110%',height:'110%',borderRadius:'50px' }} />
-          </div>
-        </div>
-      </section>
+        </section>
     );
-  }
-  
-  export default About;
+}
+
+export default About;

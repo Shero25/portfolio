@@ -1,33 +1,120 @@
-.aboutMe {
-    padding: 2rem;
-    background-color: white;
-}
+/* Details.css */
 
-.hero-section {
+.about-section {
+    padding: 3rem 2rem;
+    background-color: #FFFFFF;
+  }
+  
+  .about-heading {
+    font-size: 2.5rem;
+    color: #333333;
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: center;
+  }
+  
+  .about-heading .highlight {
+    color: #76B041;
+    font-weight: bolder;
+  }
+  
+  .about-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-}
-
-.detail {
-    flex: 1; /* Make this section take up 50% of the width */
-    padding-right: 2rem;
-}
-
-.detail p {
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .personal-info {
+    flex: 1;
+    min-width: 280px;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  
+  .personal-info h3 {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 1rem;
+  }
+  
+  .info-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 1rem; /* Space between columns */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #333333;
+  }
+  
+  .info-list li {
+    margin-bottom: 0.75rem;
     font-size: 1rem;
-    line-height: 1.6;
-    color: #343a40;
-}
-
-.image {
-    flex: 1; /* Make this section take up 50% of the width */
+  }
+  
+  .btn-more {
+    background-color: white;
+    color: black;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #76B041;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .btn-more:hover {
+    background-color: #5C8E35;
+    color: white;
+  }
+  
+  .btn-icon {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    background-color: #76B041;
+    border-radius: 50%;
+    padding: 5px;
     display: flex;
+    align-items: center;
     justify-content: center;
-}
-
-.image img {
-    width: 90%; /* Slightly reduce the width for better alignment */
-    height: auto;
-    border-radius: 50px;
-}
+  }
+  
+  .stats-info {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+  }
+  
+  .stat-box {
+    background-color: #F8F8F8;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 240px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-box h3 {
+    font-size: 2rem;
+    color: #76B041;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat-box p {
+    font-size: 1rem;
+    color: #333333;
+  }
+  

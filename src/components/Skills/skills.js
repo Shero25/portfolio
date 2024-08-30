@@ -1,73 +1,52 @@
-import React from "react";
-import "./skills.css";
+import React from 'react';
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
+import './skills.css';
 
-function Skills(){
-    return(
-        <div class="skills-section">
-        <div class="soft-skills">
-            <h2 class="section-title">SOFT SKILLS</h2>
-            <div class="skill">
-                <div class="skill-rating">4/5</div>
-                <div class="skill-name">Problem Solving</div>
+// Import React Icons
+import { FaHtml5, FaCss3Alt, FaPhp, FaReact, FaAngular, FaJava } from "react-icons/fa";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { SiJavascript, SiPostgresql,SiPhp  } from "react-icons/si";
+
+function Skills() {
+  const skills = [
+    { name: 'HTML', value: 85, color: '#E44D26', icon:<FaHtml5 /> }, 
+    { name: 'JavaScript', value: 70, color: '#F7DF1E', icon: <SiJavascript /> }, 
+    { name: 'CSS', value: 85, color: '#1572B6', icon: <FaCss3Alt /> }, 
+    { name: 'PHP', value: 68, color: '#787CB5', icon: <SiPhp  /> },
+    { name: 'PostgreSQL', value: 80, color: '#336791', icon: <SiPostgresql /> },
+    { name: 'Spring Boot', value: 65, color: '#6DB33F', icon: <BiLogoSpringBoot /> },
+    { name: 'Angular', value: 73, color: '#DD0031', icon: <FaAngular /> },
+    { name: 'React', value: 45, color: '#61DAFB', icon: <FaReact /> }, 
+  ];
+
+  return (
+    <section className="skills-section">
+      <h2>MY SKILLS</h2>
+      <div className="skills-grid">
+        {skills.map((skill, index) => (
+          <div key={index} className="skill-item">
+            <CircularProgressbar
+              value={skill.value}
+              text={`${skill.value}%`}
+              styles={buildStyles({
+                pathColor: skill.color, 
+                textColor: '#000',
+                trailColor: '#d6d6d6',
+                backgroundColor: '#f8f8f8',
+              })}
+            />
+            <div className="skill-text">
+              <span className="skill-icon" style={{ color: skill.color }}>
+                {skill.icon}
+              </span>
+              <p>{skill.name}</p>
             </div>
-            <div class="skill">
-                <div class="skill-rating">4/5</div>
-                <div class="skill-name">Interpersonal Skills</div>
-            </div>
-            <div class="skill">
-                <div class="skill-rating">4/5</div>
-                <div class="skill-name">Leadership Skills</div>
-            </div>
-            <div class="skill">
-                <div class="skill-rating">4/5</div>
-                <div class="skill-name">Team Player Skills</div>
-            </div>
-            <div class="skill">
-                <div class="skill-rating">4/5</div>
-                <div class="skill-name">Communication</div>
-            </div>
-        </div>
-        <div class="technical-skills">
-            <h2 class="section-title">TECHNICAL SKILLS</h2>
-            <div class="skill-bar">
-                <span>Overall Rating</span>
-                <div class="bar">
-                    <div class="final" style={{width: '90%'}}></div>
-                </div>
-            </div>
-            <div class="skill-bar">
-                <span>Angular</span>
-                <div class="bar">
-                    <div class="final" style={{width: '85%'}}></div>
-                </div>
-            </div>
-            <div class="skill-bar">
-                <span>HTML & CSS</span>
-                <div class="bar">
-                    <div class="final" style={{width: '90%'}}></div>
-                </div>
-            </div>
-            <div class="skill-bar">
-                <span>Java Spring Boot</span>
-                <div class="bar">
-                    <div class="final" style={{width: '85%'}}></div>
-                </div>
-            </div>
-            <div class="skill-bar">
-                <span>PostgreSQL</span>
-                <div class="bar">
-                    <div class="final" style={{width: '85%'}}></div>
-                </div>
-            </div>
-            <div class="skill-bar">
-                <span>Git</span>
-                <div class="bar">
-                    <div class="final" style={{width: '80%'}}></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    );
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 }
+
 export default Skills;

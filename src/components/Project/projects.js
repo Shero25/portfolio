@@ -12,7 +12,7 @@ function Projects() {
             <div className="card-body">
               <h5 className="card-title">Project 1</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button className="btn btn-primary">View</button>
+              <button className="btn btn-primary" style={{backgroundColor:'#76B041',border:'none'}}>View</button>
             </div>
           </div>
         </div>
@@ -22,7 +22,7 @@ function Projects() {
             <div className="card-body">
               <h5 className="card-title">Project 2</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button className="btn btn-primary">View</button>
+              <button className="btn btn-primary" style={{backgroundColor:'#76B041',border:'none'}}>View</button>
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@ function Projects() {
             <div className="card-body">
               <h5 className="card-title">Project 3</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button className="btn btn-primary">View</button>
+              <button className="btn btn-primary" style={{backgroundColor:'#76B041',border:'none'}}>View</button>
             </div>
           </div>
         </div>

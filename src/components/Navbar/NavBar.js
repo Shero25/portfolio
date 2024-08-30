@@ -6,13 +6,14 @@ function NavBar (){
         <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-lg">
             <div className="container-fluid px-3 d-flex justify-content-between align-items-center">
                 <a className="navbar-brand" href="#">
-                    <img src="logo.png" alt="Portfolio Logo" />
+                    {/* <img src="logo.png" alt="Portfolio Logo" /> */}
+                    Portfolio
                 </a>
                 <div className="navbar-collapse collapse justify-content-center">
                     <div className="navbar-nav">
-                        <a className="nav-link active" aria-current="page" href="#">About</a>
-                        <a className="nav-link" href="#">Projects</a>
-                        <a className="nav-link" href="#">Contacts</a>
+                        <a className="nav-link active" aria-current="page" href="#" style={{textDecoration:'underline',textDecorationColor:' #76B041'}}>About</a>
+                        <a className="nav-link" href="#" style={{color:'black'}}>Projects</a>
+                        <a className="nav-link" href="#" style={{color:'black'}}>Skills</a>
                     </div>
                 </div>
                 <div className="nav-icons d-flex">

@@ -1,77 +1,50 @@
 .skills-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #fff;
-}
-
-.soft-skills, .technical-skills {
-    width: 45%;
-    
-}
-
-.section-title {
-    background-color: #ffbb33;
-    padding: 10px;
-    color: white;
-    font-size: 18px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.most-improved {
-    background-color: #ffe4b2;
-    padding: 10px;
-    margin-bottom: 20px;
     text-align: center;
-}
-
-
-.skill {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.skill-rating {
-    width: 50px;
-    height: 50px;
-    background-color: #ffbb33;
-    border-radius: 50%;
-    display: flex;
+    padding: 2rem;
+    
+  }
+  
+  .skills-section h2 {
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .skills-grid {
+    display: grid;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
-    color: white;
-    margin-right: 10px;
-}
-
-.skill-name {
-    font-size: 16px;
-    font-weight: bold;
-    color: #343a40;
-}
-
-.technical-skills .skill-bar {
-    margin-bottom: 20px;
-}
-
-.technical-skills .bar {
-    height: 20px;
-    background-color: #e0e0e0;
-    border-radius: 10px;
-    overflow: hidden;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 2rem;
+  }
+  
+  .skill-item {
     display: flex;
-    margin-top: 5px;
-}
-
-.technical-skills .bar div {
-    height: 100%;
-    border-radius: 10px;
-}
-
-.final {
-    background-color: #43b8b8;
-}
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+    text-align: center;
+  }
+  
+  .skill-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .skill-icon {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+   
+  }
+  
+  .skill-item p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 1rem;
+  }
+  

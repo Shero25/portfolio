@@ -4,7 +4,7 @@ import './Projects.css'; // Import the CSS file
 function Projects() {
   return (
     <section id="projects" className="container py-5">
-      <h2 className="mb-5 text-center">Projects</h2>
+       <h2 className="contact-heading">   Projects</h2>
       <div className="row justify-content-center">
         <div className="col-md-3 mb-3">
           <div className="card text-center">

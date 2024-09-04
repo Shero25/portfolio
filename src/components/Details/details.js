@@ -4,7 +4,7 @@ import './Details.css';
 
 function Details() {
     return (
-        <section className="about-section">
+        <section id="about" className="about-section">
         <h2 className="about-heading">ABOUT <span className="highlight">ME</span></h2>
         <div className="about-container">
             <div className="personal-info">

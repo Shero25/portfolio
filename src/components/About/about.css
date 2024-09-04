@@ -1,17 +1,17 @@
-.profile-section {
-  padding: 70px 50px;
+.profile-section {/*the main section of the page*/
+  padding: 170px 50px;
   background-color: #FFFFFF; 
  
 }
 
-.profile-container {
+.profile-container {/*side of the picture*/
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
    
 }
 
-.profile-image-wrapper {
+.profile-image-wrapper {/*container for the image*/
   position: relative;
   flex: 1;
   max-width: 35%;
@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.image-background {
+.image-background {/*the container behind the picture*/
   position: absolute;
   top: 0;
   left: 0;
@@ -31,7 +31,7 @@
   z-index: 1;
 }
 
-.profile-image {
+.profile-image {/*sizing of the picture*/
   width: 100%;
   height: auto;
   padding: 10px;
@@ -41,9 +41,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.profile-content-wrapper {
+.profile-content-wrapper {/*other side where theres the introduction*/
   flex: 1;
-  max-width: 50%;
+  max-width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,19 +77,18 @@
   color: #777777; 
   line-height: 1.6;
   margin-bottom: 2rem;
+  padding-left: 20px;
 }
 
 .btn-more {
   background-color: white; 
   color: black;
-  padding: 0.75rem 1.5rem;
   border-radius: 30px; 
   font-size: 1rem;
   font-weight: bold;
   border: 2px solid #76B041;
   cursor: pointer;
   display: inline-flex;
-  align-items: center;
   transition: background-color 0.3s ease;
 }
 

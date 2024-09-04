@@ -1,18 +1,16 @@
 import React from 'react';
+// import for icons
 import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaFacebook, FaTwitter, FaYoutube, FaInstagram,FaLinkedin } from 'react-icons/fa';
 import { FaPaperPlane } from 'react-icons/fa';
+// css file for the contact component
 import './contact.css'; 
 
 function Contact() {
   return (
-    <section className="contact-section">
-    <h2 className="contact-heading">GET IN <span className="highlight">TOUCH</span></h2>
+    <section id="contact" className="contact-section">
+    <h2 className="contact-heading">  CONTACT <span className="highlight">ME</span></h2>
     <div className="contact-container">
       <div className="contact-info">
-        <h3>DON'T HESITATE!</h3>
-        <p>
-          Feel free to get in touch with me. I am always open to discussing new projects and opportunities.
-        </p>
         <ul className="info-list">
           <li>
             <FaMapMarkerAlt className="info-icon" />
@@ -43,12 +41,6 @@ function Contact() {
             </div>
           </li>
         </ul>
-        <div className="social-icons">
-          <FaFacebook className="social-icon" />
-          <FaTwitter className="social-icon" />
-          <FaYoutube className="social-icon" />
-          <FaInstagram className="social-icon" />
-        </div>
       </div>
       <div className="contact-form">
         <form>

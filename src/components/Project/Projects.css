@@ -5,12 +5,13 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    min-height:90vh;
 }
 
 h2 {
     margin-bottom: 3rem;
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
     color: #343a40;
     width: 100%;
 }
@@ -20,7 +21,7 @@ h2 {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
-    margin: 55px;
+    margin: 10px;
 }
 
 .card:hover {

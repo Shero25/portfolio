@@ -16,7 +16,7 @@ function Contact() {
             <FaMapMarkerAlt className="info-icon" />
             <div>
               <strong>ADDRESS POINT</strong><br />
-             270 Marshall, , United States of America 750066.
+             270 Marshall,Johannesburg 2000.
             </div>
           </li>
           <li>

@@ -1,9 +1,11 @@
 .skills-section {
     padding: 2rem;
-    
+    background: linear-gradient(135deg, #f9f9f9, #f8f8f8);
+    min-height: 80vh;
   }
   
   .skills-section h2 {
+    padding-top: 30px;
     margin-bottom: 2rem;
     font-weight: bolder;
     font-family: Arial, sans-serif;
@@ -11,6 +13,7 @@
   }
   
   .skills-grid {
+    padding: 30px;
     padding-left: 170px;
     display: grid;
     text-align: center;

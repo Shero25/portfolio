@@ -1,6 +1,7 @@
 .contact-section {/*the main div of the contact me file*/
     padding: 3rem 2rem;
     background-color: #ffffff;
+    background: linear-gradient(135deg, #f9f9f9, #f8f8f8);
   }
   
   .contact-heading {/*contact me text*/
@@ -9,7 +10,7 @@
     margin-bottom: 2rem;
   }
   
-  .contact-heading .highlight {/*tcoloring the ME part to be green*/
+  .contact-heading .highlight {/*coloring the ME part to be green*/
     color: #76B041; 
   }
   

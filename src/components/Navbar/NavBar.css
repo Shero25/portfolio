@@ -44,7 +44,7 @@ img {
 }
 
 .icon-btn:hover svg {
-    color: #e2a703; /* Change this to the color you prefer */
+    color: #598c29; 
 }
 
 .btn.btn-dark {
@@ -67,5 +67,5 @@ img {
     align-items: center;
 }
 .nav-link:hover{
-   background-color:  #48870e; 
+   background-color: #76B041; 
 }

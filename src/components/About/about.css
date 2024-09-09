@@ -1,6 +1,10 @@
 .profile-section {/*the main section of the page*/
   padding: 170px 50px;
-  background-color: #FFFFFF; 
+  background: linear-gradient(135deg, #f9f9f9, #f8f8f8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
  
 }
 
@@ -18,6 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .image-background {/*the container behind the picture*/
@@ -29,6 +34,7 @@
   background-color: #76B041; 
   border-radius: 20px 0 0 0; 
   z-index: 1;
+  
 }
 
 .profile-image {/*sizing of the picture*/
@@ -43,13 +49,14 @@
 
 .profile-content-wrapper {/*other side where theres the introduction*/
   flex: 1;
-  max-width: 60%;
+  max-width: 55%;
   display: flex;
   justify-content: center;
+  padding-left: 10px;
   align-items: center;
 }
 
-.profile-content {
+.profile-content {/**/
   padding-left: 2rem;
   padding: 50px;
  
@@ -59,39 +66,30 @@
   font-size: 2.5rem;
   color: #333333; 
   margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; 
 }
 
 .profile-content h2 .highlight {
   color: #76B041;
+  padding-right: 30px;
 
 }
 
 .profile-content h3 {
   font-size: 2rem;
+  padding-left: 90px;
   color: #333333; 
-  margin-bottom: 1rem;
 }
 
 .profile-content p {
   font-size: 1rem;
   color: #777777; 
   line-height: 1.6;
-  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
   padding-left: 20px;
 }
-
-.btn-more {
-  background-color: white; 
-  color: black;
-  border-radius: 30px; 
-  font-size: 1rem;
-  font-weight: bold;
-  border: 2px solid #76B041;
-  cursor: pointer;
-  display: inline-flex;
-  transition: background-color 0.3s ease;
-}
-
 
 .btn-more:hover {
   background-color: #5C8E35; 
@@ -109,3 +107,22 @@
   align-items: center;
   justify-content: center;
 }
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wave-hand {
+  display: inline-block;
+  animation: wave 2s infinite; /* Waving effect repeats infinitely */
+  transform-origin: 80% 80%; /* Set rotation point to the base of the hand */
+  font-size: 2.3rem; 
+}
+

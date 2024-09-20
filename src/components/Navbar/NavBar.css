@@ -1,4 +1,27 @@
-
+/* Light Mode (default) */
+body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .navbar, .footer {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .navbar.dark-mode, .footer.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  /* Any other components like buttons, headers, etc., can be styled similarly */
+  
 
 img {
     height: 40px;

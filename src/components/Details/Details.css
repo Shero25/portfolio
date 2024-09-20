@@ -98,20 +98,93 @@
     gap: 1.5rem;
   }
   
-  .stat-box {
-    background-color: #F8F8F8;
+  .stat-box1 {
+    background-color:#49adec;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    color: white;
+    padding: 2rem;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .stat-box2 {
+    background-color:#F7C346;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    color: white;
+    padding: 2rem;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .stat-box3 {
+    background-color: #D96ED4;
+    color: white;
     border: 1px solid #E0E0E0;
     border-radius: 10px;
     padding: 2rem;
     width: 100%;
-    max-width: 240px;
+    max-width: 250px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .stat-box:hover {
+  .stat-box4{
+    background-color: #68D391;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .stat-box1:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
   }
+  .stat-box2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  }
+  .stat-box3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  }
+  .stat-box4:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  }
+  .summary-title {
+    font-size: 24px;
+    width: 90%;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid  #76B041;
+    padding-bottom: 5px;
+}
+
+.summary-text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.summary-text strong {
+    color:  #76B041; /* Highlighting the tech stack */
+    font-weight: 600;
+}
+
   
   .stat-box h3 {
     font-size: 2rem;

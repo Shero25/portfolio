@@ -8,7 +8,7 @@ function About() {
             <div className="profile-container">
                 <div className="profile-image-wrapper">
                     <div className="image-background"></div>
-                    <img src="pr.jpg" alt="Sheroline Malatjie" className="profile-image" />
+                    <img src="ntha.png" alt="Sheroline Malatjie" className="profile-image" style={{width:'400px'}}/>
                 </div>
                 <div className="profile-content-wrapper">
                     <div className="profile-content">

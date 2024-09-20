@@ -12,7 +12,7 @@ function Projects() {
             <img src="nemss.png" className="card-img-top" alt="Project 1" />
             <div className="card-body">
               <h5 className="card-title">NEMSS</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p className="card-text">Is an app that will assist Entrepreneurs to start and help them grow their business.</p>
               <a href="https://github.com/The-DigitalAcademy/NEMSS" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{backgroundColor:'#76B041',border:'none'}}>
                 <FaGithub style={{ marginRight: '5px' }} /> View on GitHub
               </a>
@@ -52,7 +52,7 @@ function Projects() {
             <div className="card-body">
               <h5 className="card-title">Quizz App</h5>
               <p className="card-text">A platform that allows users to test their knowledge across various topics through interactive quizzes.</p>
-              <a href="https://github.com/Shero25/quiz-app" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{backgroundColor:'black',border:'none'}}>
+              <a href="https://github.com/Shero25/quiz-app" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{backgroundColor:'#76B041',border:'none'}}>
                 <FaGithub style={{ marginRight: '5px' }} /> View on GitHub
               </a>
             </div>

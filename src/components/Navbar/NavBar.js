@@ -34,6 +34,7 @@ function NavBar (){
                     <a href="#contact" className="btn btn-dark ms-3">Contact Me</a>
                 </div>
             </div>
+             
         </nav>
     );
 };

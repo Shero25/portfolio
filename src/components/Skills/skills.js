@@ -7,14 +7,14 @@ import 'boxicons';
 
 function Skills() {
   const skills = [
-    { name: 'HTML', value: 85, color: '#E44D26', icon:<box-icon name='html5' type='logo' animation='flashing' color='#e44d26' ></box-icon>},
-    { name: 'JavaScript', value: 70, color: '#F7DF1E',icon:<box-icon name='javascript' type='logo' animation='spin' color='#f7df1e' ></box-icon>},
-    { name: 'CSS', value: 85, color: '#1572B6', icon:<box-icon name='css3' type='logo' animation='tada' color='#1572b6' ></box-icon> },
-    { name: 'PHP', value: 68, color: '#787CB5', icon: <box-icon name='php' type='logo' animation='burst' color='#787cb5' ></box-icon> },
-    { name: 'PostgreSQL', value: 80, color: '#336791', icon: <box-icon name='postgresql' type='logo' animation='tada' color='#336791' ></box-icon>},
-    { name: 'Spring Boot', value: 65, color: '#6DB33F', icon:<box-icon name='spring-boot' type='logo' animation='fade-left' color='#6db33f' ></box-icon> },
-    { name: 'Angular', value: 73, color: '#DD0031', icon: <box-icon name='angular' type='logo' animation='spin' color='#dd0031' ></box-icon> }, // Boxicon for Angular
-    { name: 'React', value: 45, color: '#61DAFB', icon: <box-icon name='react' type='logo' animation='spin' color='#61dafb' ></box-icon>},
+    { name: 'HTML', value: 75, color: '#E44D26', icon:<box-icon name='html5' type='logo' animation='flashing' color='#e44d26' ></box-icon>},
+    { name: 'JavaScript', value: 58, color: '#F7DF1E',icon:<box-icon name='javascript' type='logo' animation='spin' color='#f7df1e' ></box-icon>},
+    { name: 'CSS', value: 75, color: '#1572B6', icon:<box-icon name='css3' type='logo' animation='tada' color='#1572b6' ></box-icon> },
+    { name: 'PHP', value: 47, color: '#787CB5', icon: <box-icon name='php' type='logo' animation='burst' color='#787cb5' ></box-icon> },
+    { name: 'PostgreSQL', value: 68, color: '#336791', icon: <box-icon name='postgresql' type='logo' animation='tada' color='#336791' ></box-icon>},
+    { name: 'Spring Boot', value: 60, color: '#6DB33F', icon:<box-icon name='spring-boot' type='logo' animation='fade-left' color='#6db33f' ></box-icon> },
+    { name: 'Angular', value: 63, color: '#DD0031', icon: <box-icon name='angular' type='logo' animation='spin' color='#dd0031' ></box-icon> }, // Boxicon for Angular
+    { name: 'React', value: 40, color: '#61DAFB', icon: <box-icon name='react' type='logo' animation='spin' color='#61dafb' ></box-icon>},
   ];
 
   return (

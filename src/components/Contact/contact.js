@@ -29,9 +29,11 @@ function Contact() {
           <li>
             <FaLinkedin className="info-icon" />
             <div>
-              <strong>LINKEDIN</strong><br />
-              Https://www.linkedin.com/in/sheroline-malatjie-370b631b4
-            </div>
+  <strong>LINKEDIN</strong><br />
+  <a href="https://www.linkedin.com/in/sheroline-malatjie-370b631b4" target="_blank">
+    https://www.linkedin.com/in/sheroline-malatjie-370b631b4
+  </a>
+</div>
           </li>
           <li>
             <FaPhoneAlt className="info-icon" />
@@ -43,25 +45,27 @@ function Contact() {
         </ul>
       </div>
       <div className="contact-form">
-        <form>
-          <div className="form-group">
-            <input type="text" placeholder="YOUR NAME" className="form-control" />
-            <input type="email" placeholder="YOUR EMAIL" className="form-control" />
-          </div>
-          <div className="form-group">
-            <input type="text" placeholder="YOUR SUBJECT" className="form-control full-width" />
-          </div>
-          <div className="form-group">
-            <textarea placeholder="YOUR MESSAGE" className="form-control full-width" rows="5"></textarea>
-          </div>
-          <button type="submit" className="btn-submit">
-            SEND MESSAGE
-            <span className="btn-icon">
-              <FaPaperPlane />
-            </span>
-          </button>
-        </form>
-      </div>
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <div className="form-group">
+      <input type="hidden" name="access_key" value="77fdb016-6be0-4399-b89d-fb3f002565ef" />
+      <input type="text" name="name" placeholder="YOUR NAME" className="form-control" />
+      <input type="email" name="email" placeholder="YOUR EMAIL" className="form-control" />
+    </div>
+    <div className="form-group">
+      <input type="text" name="subject" placeholder="YOUR SUBJECT" className="form-control full-width" />
+    </div>
+    <div className="form-group">
+      <textarea name="message" placeholder="YOUR MESSAGE" className="form-control full-width" rows="5"></textarea>
+    </div>
+    <button type="submit" className="btn-submit">
+      SEND MESSAGE
+      <span className="btn-icon">
+        <FaPaperPlane />
+      </span>
+    </button>
+  </form>
+</div>
+
     </div>
   </section>
   );
